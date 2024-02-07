@@ -1,0 +1,52 @@
+{
+	"compilerOptions": {
+		// Type Checking
+		"noFallthroughCasesInSwitch": true,
+		"noImplicitOverride": true,
+		"noImplicitReturns": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"strict": true,
+		"strictFunctionTypes": false,
+
+		// Modules
+		"module": "NodeNext",
+		"moduleResolution": "NodeNext",
+
+		// Emit
+		"declaration": true,
+		"sourceMap": true,
+		"outDir": "dist",
+
+		// JavaScript Support
+		//"allowJs": true,
+
+		// Editor Support
+
+		// Interop Constraints
+		"allowSyntheticDefaultImports": true,
+		"esModuleInterop": true,
+		"isolatedModules": true,
+		//"verbatimModuleSyntax": true,
+
+		// Backwards Compatibility
+
+		// Language and Environment
+		"target": "ES2021",
+
+		// Compiler Diagnostics
+
+		// Projects
+		"incremental": true
+
+		// Output Formatting
+
+		// Completeness
+
+		// Command Line
+
+		// Watch Options
+	},
+	"include": ["src/**/*"],
+	"exclude": ["node_modules"]
+}

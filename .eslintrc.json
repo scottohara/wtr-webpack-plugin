@@ -1,0 +1,22 @@
+{
+	"extends": "oharagroup",
+	"parserOptions": {
+		"project": "./tsconfig.json"
+	},
+	"env": {
+		"browser": false,
+		"shared-node-browser": true
+	},
+	"rules": {
+		"no-console": "off",
+		"one-var": "off"
+	},
+	"overrides": [
+		{
+			"files": ["**/*.test.ts"],
+			"env": {
+				"jest": true
+			}
+		}
+	]
+}
